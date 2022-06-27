@@ -9,7 +9,7 @@ use Symfony\Component\Routing\Annotation\Route;
 class OmController extends AbstractController
 {
     /**
-     * @Route("/om", name="app_om")
+     * @Route("/lucky/nadeem", name="app_nadeem")
      */
     public function index(): Response
     {
