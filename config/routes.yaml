@@ -1,3 +1,17 @@
 #index:
 #    path: /
 #    controller: App\Controller\DefaultController::index
+
+
+
+app_hitman:
+  path: /om/hitman  
+  controller: App\Controller\OmController::index
+
+app_thankyou:
+   path: /thankyou
+   controller: App\Controller\OmController::thankyou  
+
+app_client:
+   path: /client
+   controller: App\Controller\ClientController::index   
